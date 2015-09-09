@@ -1,36 +1,15 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Bw4uf.GitHub.io by bw4uf</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">helicopter's Blog</h1>
-    </section>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-helicopter's-blog" class="anchor" href="#welcome-to-my-github-blog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to my gitHub blog.</h3>
 
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li>1</li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-
-      <footer class="site-footer">
-<p><a href="https://github.com/bw4uf">helicopter's github</a></p>
-      </footer>
-
-    </section>
-
-  
-  </body>
-</html>
-
+</div>
