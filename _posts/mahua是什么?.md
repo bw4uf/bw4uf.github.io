@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "微信，你应该知道的玩法"
+date:   2014-01-08 04:17:43
+categories: jekyll update
+---
+
+
 #mahua
 ###mahua
 ####mahua
