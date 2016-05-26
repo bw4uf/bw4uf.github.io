@@ -8,6 +8,7 @@ title: helicopter's blog
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     {% endfor %}
   </ul>
   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
