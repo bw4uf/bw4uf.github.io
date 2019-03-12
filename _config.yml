@@ -1,1 +1,7 @@
 name: helicopter's Blog
+
+title: helicopter
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-modernist
