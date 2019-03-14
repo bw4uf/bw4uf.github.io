@@ -1,4 +1,3 @@
-#2016-05-30-undefined symbols for architecture x86_64
 这是一个非常常见的报错，当然原因可能有很多种。
 以下转自:http://www.th7.cn/Program/IOS/201408/268371.shtml
 

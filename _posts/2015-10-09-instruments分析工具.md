@@ -1,5 +1,3 @@
-#Instruments分析工具
-
     要点：这是一篇关于API或者开发技术的基础文档。苹果提供这些信息来帮助读者
     
 附录里提供了关于Instruments分析工具的简要介绍来帮助读者理解[Best Practices for Developing Cellular Apps](developer.apple.com/library/prerelease/ios/documentation/Performance/Conceptual/CellularBestPractices/BestPractices/BestPractices.html#//apple_ref/doc/uid/TP40013998-CH3-SW1)这篇文档所描述的最好的实践中的数据展示。
