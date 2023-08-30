@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-
 {% include head.html %}
 
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="">
+
+<script>
+    window.difyChatbotConfig = {token: '57eOHhaGZJVrZj0f'}
+</script>
+<script src="https://udify.app/embed.min.js" id="57eOHhaGZJVrZj0f" defer></script>
 
     {% include nav.html %}
 
@@ -18,15 +17,9 @@
 
     {% include footer.html %}
 
-
-<!-- Image to hack wechat -->
+    <!-- Image to hack wechat -->
 <img src="/img/apple-touch-icon.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
-
-<script>
-    window.difyChatbotConfig = {token: '57eOHhaGZJVrZj0f'}
-</script>
-<script src="https://udify.app/embed.min.js" id="57eOHhaGZJVrZj0f" defer></script>
 
 </body>
 
